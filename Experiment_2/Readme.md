@@ -1,4 +1,4 @@
-#We followed the following steps (in ascending order) to train our models: -
+# We followed the following steps (in ascending order) to train our models: -
 
 
 
