@@ -5,6 +5,10 @@ MONO_PATH=$DATA_PATH/mono
 PARA_PATH=$DATA_PATH/para
 PROC_PATH=$DATA_PATH/processed/$SRC-$TGT
 
+# Clone the MASS repo
+echo "Cloning MASS from GitHub repository..."
+git clone https://github.com/microsoft/MASS.git
+
 
 cd $TOOLS_PATH
 
