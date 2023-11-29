@@ -1,0 +1,11 @@
+\section{Introduction} \label{sec:Introduction}
+
+\subsection{Background}
+The goal of sign language translation, or SLT, is to eliminate communication barriers between the hearing and the deaf or hard-of-hearing communities. The fact that Sign Languages (SLs) are multi-channeled, non-written languages presents a challenge for SLT. As such, the recent advances in text-based machine translation (MT) cannot be easily applied to machine translation (MT) for SLs. Glosses are one of these representations, in which words from the appropriate spoken language—often with affixes and markers—are used to name signals. Glosses enable the system to be built in two stages: text-to-gloss translation and generation of videos. In our work, we are focusing on generation of quality gloss using unsupervised language generation task.
+
+
+\subsection{Contributions}
+\begin{enumerate}
+\item Quality gloss generation using unsupervised masked sequence to sequence pre-training in the context of unavailability of parallel data.
+\item Fine-tuning on unsupervised NMT using monolingual data for training and back-translation to generate pseudo bilingual data.
+\end{enumerate}

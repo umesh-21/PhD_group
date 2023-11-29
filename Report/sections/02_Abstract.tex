@@ -1,0 +1,10 @@
+\section{Abstract} \label{sec:abstract}
+
+Unsupervised mode is important in the current setup as it allows for pre-training on large amounts of unpaired data, such as monolingual data, which is more easily accessible compared to paired data. This helps in addressing the low-resource scenario and enables the transfer of knowledge from the pre-training task to downstream language generation tasks. Pre-training in an unsupervised manner allows the model to learn general language patterns and representations, which can then be fine-tuned on specific downstream tasks. This fine-tuning process further improves the performance by adapting the pre-trained model to the target task, leveraging the limited available paired or unpaired data.
+
+Unsupervised masked sequence to sequence pre-training, such as MASS \cite{ref_paper}, is important for language generation tasks as it allows for the transfer of knowledge from a rich-resource pre-training task to low/zero-resource downstream tasks. MASS adopts the encoder-decoder framework to reconstruct a sentence fragment given the remaining part of the sentence, which helps in developing the capability of representation extraction and language modeling. The effectiveness of the design choices in MASS, such as masking consecutive tokens in the encoder side and masking input tokens of the decoder that are not masked in the encoder side, helps in building better language modeling capability and encouraging the decoder to extract more useful information from the encoder side. 
+
+In our work, we have used the MASS model on German text to Gloss which is low resource in terms of dataset size as the availability of parallel data is limited. Through the work, we tried to produce a quality gloss through the model referred.  
+
+
+

@@ -1,0 +1,98 @@
+\documentclass[a4paper]{article}
+
+\usepackage{url,afterpage,amssymb,amsfonts}
+\usepackage{enumitem,makecell}
+\usepackage{booktabs}
+%\usepackage{times}
+%\usepackage{amsthm}
+%\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{verbatim}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+
+\usepackage{color}
+\usepackage{colortbl}
+% \usepackage{tikz}
+% \usetikzlibrary{decorations.pathmorphing}
+\graphicspath{{./figs/}}
+%\usepackage[ruled,vlined]{algorithm2e}
+%\usepackage{algorithm}% http://ctan.org/pkg/algorithm
+\usepackage[linesnumbered,ruled]{algorithm2e}% http://ctan.org/pkg/algorithm
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{soul}
+%\usepackage{natbib}
+%\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{subfig}
+\usepackage{url,afterpage,amssymb,amsfonts}
+\usepackage{enumitem,makecell}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{inputenc}
+\usepackage{tabularx}
+\usepackage{pgfgantt}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+%\usepackage[font=footnotesize]{caption}
+\date{\vspace{-5ex}}
+
+\setlength{\topmargin}{-10mm}
+%\setlength{\textwidth}{7in}
+%\setlength{\oddsidemargin}{-5mm}
+%\setlength{\textheight}{9in}
+%\setlength{\footskip}{1in}
+
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=25mm,
+	right=25mm,
+	top=25mm,
+	bottom=25mm
+}
+
+\newcommand\todo[1]{\textcolor{red}{#1}}
+
+\begin{document}
+
+\fontsize{11}{15}
+\selectfont
+\input{sections/01_Title}
+
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+
+
+\newpage
+\input{sections/02_Abstract}
+\input{sections/03_Introduction}
+\input{sections/04_Problem Statement}
+\input{sections/05_Literature_Survey}
+\input{sections/06_Novelty}
+\input{sections/07_Experiments}
+\input{sections/08_Result_Analysis}
+
+\bibliographystyle{plain}
+\newpage
+\bibliography{references/references}
+\end{document}
+
+
+
+
