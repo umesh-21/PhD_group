@@ -22,7 +22,7 @@
 
 # Results
 
-* All our training logs and results are inside `dumped` folder.
+* All the training logs and results will get saved in the `dumped` folder.
 
 
 
